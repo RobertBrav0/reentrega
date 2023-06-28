@@ -10,7 +10,7 @@ import { NavLink, Link } from "react-router-dom"
             <div className="Categories">
                 <NavLinK to={`/category/medias`}className={({ isActive }) => isActive ? 'ActiveOption' : 'Option' }>medias</NavLinK>
                 <NavLinK to={`/category/lenceria`}className={({ isActive }) => isActive ? 'ActiveOption' : 'Option' }>lenceria</NavLinK>
-                <NavLinK to={`/category/gorras`}className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>orras</NavLinK>
+                <NavLinK to={`/category/gorras`}className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Gorras</NavLinK>
             </div>
             <CarWidget />
         </nav>
